@@ -27,8 +27,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Complie
         run: |
-              mkdir my_flask_app
-              cd my_flask_app
-              cp -r Sample-Project .
               pip install Flask
-              flask run
+              flask run app.py
