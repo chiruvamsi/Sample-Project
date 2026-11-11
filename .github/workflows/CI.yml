@@ -28,4 +28,4 @@ jobs:
       - name: Complie
         run: |
               pip install Flask
-              flask run app.py
+              flask run
