@@ -29,6 +29,5 @@ jobs:
         run: |
               mkdir my_flask_app
               cd my_flask_app
-              source .venv/bin/activate
               pip install Flask
               flask run
